@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>PortoFolio Website</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>SV</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a
+                        href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a
+                        href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a
+                        href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a
+                        href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a
+                        href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="foto.png" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm<span>Stephan
+                        Vierrelie</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    <h3>I'm a <span class="typewriter-text"></span></h3>
+                </div>
+
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100"> A Computer Science undergraduate
+                    passionate about building impactful digital solutions. I focus on software engineering, web
+                    development, data analytics, and UI/UX design, combining technical precision with user-centered
+                    creativity.
+                    I believe technology is about solving real problems and creating value. Through projects and
+                    organizational experiences, I’ve learned teamwork, leadership, and adaptability that strengthen my
+                    role as both a developer and collaborator.</p>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="900"> 🚀 Scroll down to explore my
+                    projects and experiences.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Vierre15" target="_blank" data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/share/16y6MJ8b1s//" target="_blank" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook "></i></a>
+                    <a href="https://www.linkedin.com/in/stephan-vierrelie-5266ab310/" target="_blank"
+                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/vierrelies/" target="_blank" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button
+                        onclick="window.open('https://wa.me/6289666094940?text=Hello,%20thank%20you%20for%20contacting%20me.%20I%20really%20appreciate%20your%20interest.%20Could%20you%20please%20tell%20me%20more%20about%20your%20needs%3F', '_blank')">
+                        Hire Me
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="Screenshot 2025-09-17 200544.png" alt="" />
+                </div>
+                <div class="right">
+                    <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Building,
+                        Designing, and Innovating in Tech
+                    </div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">With a Computer Science
+                        background, I have a strong interest in software development, data analysis, and UI/UX design.
+                        Every project I work on is an opportunity to learn, innovate, and create real impact. Beyond
+                        technical skills, I value teamwork, adaptability, and continuous learning, which help me to grow
+                    </p>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <button onclick="window.open('CV-ATS Stephan Vierrelie.pdf', '_blank')"> View CV </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                        Technical & Professional Skills
+                    </div>
+                    <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">My skills reflect my strong
+                        foundation in programming and problem-solving. I focus on modern technologies that are widely
+                        used in industry, from web development to data analytics, ensuring that I can adapt to different
+                        challenges and projects.</p>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="num">3</div>
+                        <div class="exp">Years Of <br /> Experience
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Python
+                        </div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">JavaScript
+                        </div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">SQL</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">85%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">C#</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="topic">Web Development</div>
+                    <p>Building modern and responsive websites using the latest technologies such as HTML, CSS,
+                        JavaScript, and React.</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class="icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="topic"> Database Design & Management</div>
+                    <p>Designing, managing, and optimizing databases using SQL, MongoDB, and database design principles.
+                    </p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <div class="icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="topic">Software Development</div>
+                    <p>Developing applications with C, C#, Java, and ASP.NET Core, following best practices in software
+                        engineering.</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                    <div class="icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="topic">Data Analytics</div>
+                    <p>Processing, analyzing, and visualizing data using Python, SQL, and analytics tools to generate
+                        insights.</p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                    <div class="icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="topic">UI/UX Design</div>
+                    <p>Designing intuitive and user-friendly interfaces with Figma to ensure an optimal user experience.
+                    </p>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                    <div class="icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="topic">Version Control & DevOps Practices</div>
+                    <p>Managing projects with Git and implementing DevOps principles for efficient team collaboration
+                        and continuous development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Contact Me</span></div>
+            <div class="text">
+                <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have any Project?
+                </div>
+                <p>I’m always open to collaboration, freelance opportunities, or exciting new projects. If you’re
+                    looking for someone passionate, detail-oriented, and ready to bring ideas to life, feel free to
+                    reach out!
+                </p>
+                <p>👉 Let’s work together to turn your vision into reality.
+                </p>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="800">
+                    <button
+                        onclick="window.open('https://wa.me/6289666094940?text=Hello,%20thank%20you%20for%20contacting%20me.%20I%20really%20appreciate%20your%20interest.%20Could%20you%20please%20tell%20me%20more%20about%20your%20needs%3F', '_blank')">
+                        Hire Me
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text">
+            <span>Created By
+                <a href="">Stephan Vierrelie</a>
+                | &#169;2025 All Rights Reserved </span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+
+    <script>
+        const texts = ["Data Analyst", "Software Engineer", "UI/UX Designer", "Web Developer"];
+        let count = 0;
+        let index = 0;
+        let currentText = "";
+        let letter = "";
+
+        (function type() {
+            if (count === texts.length) {
+                count = 0;
+            }
+            currentText = texts[count];
+            letter = currentText.slice(0, ++index);
+
+            document.querySelector(".typewriter-text").textContent = letter;
+            if (letter.length === currentText.length) {
+                count++;
+                index = 0;
+                setTimeout(type, 1500); // jeda sebelum ganti kata
+            } else {
+                setTimeout(type, 120); // kecepatan ngetik
+            }
+        })();
+    </script>
+
+</body>
+
+</html>
