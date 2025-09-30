@@ -416,6 +416,9 @@ section .button button:hover {
 }
 
 .projects .boxes .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     margin: 20px 0;
     width: calc(100% / 3 - 20px);
     text-align: center;
@@ -425,6 +428,16 @@ section .button button:hover {
     cursor: default;
     color: white;
     transition: all 0.4s ease;
+}
+
+.projects .boxes .box img {
+    margin-top: 0;
+}
+
+.projects .boxes .box p {
+    flex-grow: 1;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
 .projects .boxes .box:hover {
@@ -450,6 +463,17 @@ section .button button:hover {
     color: #b74b4b;
 }
 
+.projects .boxes .box .topic {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .projects .boxes .box:hover .topic,
 .projects .boxes .box:hover p {
     color: white;
@@ -463,7 +487,6 @@ section .button button:hover {
 
 .projects .boxes .box .project-link {
     color: #b74b4b;
-    margin-top: 10px;
     display: block;
     text-decoration: none;
     transition: all 0.4s ease;
