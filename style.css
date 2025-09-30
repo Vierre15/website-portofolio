@@ -408,13 +408,14 @@ section .button button:hover {
     color: #b74b4b;
 }
 
-.services .boxes {
+/* PERUBAHAN: Mengganti .services menjadi .projects di semua selector */
+.projects .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.services .boxes .box {
+.projects .boxes .box {
     margin: 20px 0;
     width: calc(100% / 3 - 20px);
     text-align: center;
@@ -426,12 +427,12 @@ section .button button:hover {
     transition: all 0.4s ease;
 }
 
-.services .boxes .box:hover {
+.projects .boxes .box:hover {
     background: #b74b4b;
     color: #fff;
 }
 
-.services .boxes .box .icon {
+.projects .boxes .box .icon {
     height: 50px;
     width: 50px;
     background: #b74b4b;
@@ -449,18 +450,30 @@ section .button button:hover {
     color: #b74b4b;
 }
 
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p {
+.projects .boxes .box:hover .topic,
+.projects .boxes .box:hover p {
     color: white;
     transition: all 0.4s ease;
 }
 
-.services .boxes .box:hover .topic,
-.services .boxes .box:hover p {
+.projects .boxes .box:hover .topic,
+.projects .boxes .box:hover p {
     color: #fff;
 }
 
-/* contact me css */
+.projects .boxes .box .project-link {
+    color: #b74b4b;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.projects .boxes .box:hover .project-link {
+    color: #fff;
+    text-decoration: underline;
+}
+
 /* contact me css */
 .contact {
     background: black;
@@ -593,7 +606,8 @@ footer .text span a:hover {
         margin: 40px 0;
     }
 
-    .services .boxes .box {
+    /* PERUBAHAN: Media Query untuk Projects */
+    .projects .boxes .box {
         margin: 20px 0;
         width: calc(100% / 2 - 20px);
     }
@@ -656,7 +670,7 @@ footer .text span a:hover {
 
     .skills-details .text {
         width: 100%;
-        margin-bottom: 50[x];
+        margin-bottom: 50px;
     }
 
     .skills-details .boxes {
@@ -665,7 +679,8 @@ footer .text span a:hover {
         width: 100%;
     }
 
-    .services .boxes .box {
+    /* PERUBAHAN: Media Query untuk Projects */
+    .projects .boxes .box {
         margin: 20px 0;
         width: 100%;
     }
